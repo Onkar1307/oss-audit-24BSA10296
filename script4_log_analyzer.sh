@@ -1,7 +1,7 @@
 #!/bin/bash
 # ============================================================
 # Script 4: Log File Analyzer
-# Author: [HARSHIT] | Registration: [24BAI10967]
+# Author: [Onkar] | Registration: [24BSA10296]
 # Course: Open Source Software | Capstone Project
 # Usage: ./script4_log_analyzer.sh /var/log/syslog [keyword]
 # Usage: ./script4_log_analyzer.sh /var/log/messages [keyword]
