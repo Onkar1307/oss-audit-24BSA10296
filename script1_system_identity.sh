@@ -1,20 +1,20 @@
 #!/bin/bash
 # ============================================================
 # Script 1: System Identity Report
-# Author: [HARSHIT] | Registration: [24BAI10967]
+# Author: [Onkar] | Registration: [24BSA10296]
 # Course: Open Source Software | Capstone Project
 # Software Audited: Git (Version Control System)
 # ============================================================
 
 # --- Student Information ---
-STUDENT_NAME="[HARSHIT]"          
-REG_NUMBER="[24BAI10967]"       
+STUDENT_NAME="[Onkar]"          
+REG_NUMBER="[24BSA10296]"       
 SOFTWARE_CHOICE="Git"                
 
 # --- Gather system information using command substitution ---
 KERNEL=$(uname -r)                   
 DISTRO=$(lsb_release -d 2>/dev/null | cut -f2 || cat /etc/os-release | grep PRETTY_NAME | cut -d'"' -f2)
-USER_NAME=Harshit18-web                
+USER_NAME=Onkar18-web                
 HOME_DIR=$HOME                       
 UPTIME=$(uptime -p)                  
 CURRENT_DATE=28-03-2026   
@@ -28,8 +28,8 @@ echo "================================================================"
 echo ""
 
 # --- Student info section ---
-echo "  Student  :HARSHIT"
-echo "  Reg No.  : 24BAI10967"
+echo "  Student  :Onkar"
+echo "  Reg No.  : 24BSA10296"
 echo "  Software : GIT"
 echo ""
 
@@ -41,7 +41,7 @@ echo "----------------------------------------------------------------"
 # --- Print gathered system details ---
 echo "  Distribution : $DISTRO"
 echo "  Kernel Ver.  : $KERNEL"
-echo "  Current User : Harshit18-web"
+echo "  Current User : Onkar18-web"
 echo "  Home Dir     : $HOME_DIR"
 echo "  System Up    : $UPTIME"
 echo "  Date & Time  :28-03-2026"
